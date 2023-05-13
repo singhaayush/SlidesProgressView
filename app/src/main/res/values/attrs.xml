@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlidesProgressView">
+        <attr name="progressCount" format="integer|reference" />
+        <attr name="progressInitialColor" format="color" />
+        <attr name="progressRunningColor" format="color" />
+        <attr name="progressCompletedColor" format="color" />
+    </declare-styleable>
+</resources>

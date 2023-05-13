@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/progressInitialStateView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size2dp"
+        android:background="@color/progress_initial" />
+
+    <View
+        android:id="@+id/progressRunningStateView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size2dp"
+        android:background="@color/progress_running"
+        android:visibility="invisible"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/progressCompletedStateView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size2dp"
+        android:background="@color/progress_completed"
+        android:visibility="gone" />
+</FrameLayout>
