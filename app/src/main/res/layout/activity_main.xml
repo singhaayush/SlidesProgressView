@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!--we are using merge as a parent layout for merging all our views-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <View
+        android:id="@+id/actionPreviousSlide"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toStartOf="@id/actionNextSide"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <View
+        android:id="@+id/actionNextSide"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/actionPreviousSlide" />
+
+    <com.example.slidesprogressview.core.customviews.SlidesProgressView
+        android:id="@+id/slidesProgressView"
+        android:layout_width="@dimen/size0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/size16dp"
+        android:layout_marginTop="@dimen/size24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

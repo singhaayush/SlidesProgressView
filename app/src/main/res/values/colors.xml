@@ -7,4 +7,8 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!--     Progress different states colors-->
+    <color name="progress_initial">#E5B89E</color>
+    <color name="progress_running">#CC703C</color>
+    <color name="progress_completed">#CC703C</color>
 </resources>
