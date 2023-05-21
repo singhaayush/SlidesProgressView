@@ -22,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/actionPreviousSlide" />
 
-    <com.example.slidesprogressview.core.customviews.SlidesProgressView
+    <com.singhaayush.slidesprogressview.core.customviews.SlidesProgressView
         android:id="@+id/slidesProgressView"
         android:layout_width="@dimen/size0dp"
         android:layout_height="wrap_content"

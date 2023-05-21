@@ -4,9 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MotionEvent
 import android.view.View
-import com.example.slidesprogressview.core.utils.onClick
-import com.example.slidesprogressview.core.utils.toast
 import com.example.slidesprogressview.databinding.ActivityMainBinding
+import com.example.slidesprogressview.ui.utils.onClick
+import com.example.slidesprogressview.ui.utils.toast
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

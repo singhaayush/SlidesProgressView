@@ -1,4 +1,4 @@
-package com.example.slidesprogressview.core.customviews
+package com.singhaayush.slidesprogressview.core.customviews
 
 import android.content.Context
 import android.util.AttributeSet
@@ -9,11 +9,11 @@ import android.view.animation.ScaleAnimation
 import android.view.animation.Transformation
 import android.widget.FrameLayout
 import androidx.annotation.AttrRes
-import com.example.slidesprogressview.R
-import com.example.slidesprogressview.core.utils.gone
-import com.example.slidesprogressview.core.utils.visible
-import com.example.slidesprogressview.core.utils.visibleIf
-import com.example.slidesprogressview.databinding.PaussableProgressViewBinding
+import com.singhaayush.slidesprogressview.R
+import com.singhaayush.slidesprogressview.core.utils.gone
+import com.singhaayush.slidesprogressview.core.utils.visible
+import com.singhaayush.slidesprogressview.core.utils.visibleIf
+import com.singhaayush.slidesprogressview.databinding.PausableProgressViewBinding
 
 class PausableProgressBar constructor(
     context: Context,
@@ -21,8 +21,8 @@ class PausableProgressBar constructor(
     @AttrRes defStyleAttr: Int = 0
 ) :
     FrameLayout(context, attrs, defStyleAttr) {
-    private val binding: PaussableProgressViewBinding by lazy {
-        PaussableProgressViewBinding.inflate(
+    private val binding: PausableProgressViewBinding by lazy {
+        PausableProgressViewBinding.inflate(
             LayoutInflater.from(this.context),
             this,
             true
