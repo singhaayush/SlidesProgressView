@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--     Progress different states colors-->
+    <color name="progress_initial">#E5B89E</color>
+    <color name="progress_running">#CC703C</color>
+    <color name="progress_completed">#CC703C</color>
+</resources>

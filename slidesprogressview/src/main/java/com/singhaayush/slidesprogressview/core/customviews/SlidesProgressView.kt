@@ -1,10 +1,10 @@
-package com.example.slidesprogressview.core.customviews
+package com.singhaayush.slidesprogressview.core.customviews
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.LinearLayout
-import com.example.slidesprogressview.R
+import com.singhaayush.slidesprogressview.R
 
 class SlidesProgressView(context: Context, attrs: AttributeSet) : LinearLayout(context, attrs) {
     private val progressBarLayoutParams = LayoutParams(0, LayoutParams.WRAP_CONTENT, 1f)

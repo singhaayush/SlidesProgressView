@@ -1,8 +1,6 @@
-package com.example.slidesprogressview.core.utils
+package com.singhaayush.slidesprogressview.core.utils
 
-import android.content.Context
 import android.view.View
-import android.widget.Toast
 
 fun View.gone() {
     if (visibility != View.GONE) {
@@ -22,13 +20,4 @@ fun View.visibleIf(isVisible: Boolean) {
     } else {
         gone()
     }
-}
-
-fun View.onClick(click: (View) -> Unit) {
-    setOnClickListener {
-        click(it)
-    }
-}
-fun Context.toast(message: String) {
-    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
 }

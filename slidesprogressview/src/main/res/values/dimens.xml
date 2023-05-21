@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="size0dp" type="dimen">0dp</item>
+    <item name="size2dp" type="dimen">2dp</item>
+    <item name="size16dp" type="dimen">16dp</item>
+    <item name="size24dp" type="dimen">24dp</item>
+    <item name="size26dp" type="dimen">26dp</item>
+</resources>
